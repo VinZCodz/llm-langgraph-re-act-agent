@@ -1,0 +1,19 @@
+{
+  "name": "llm-langgraph-re-act-agent",
+  "version": "1.0.0",
+  "description": "Learning ReAct Agentic Development (reason+act) using LangGraph framework.",
+  "main": "agent.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.75",
+    "@langchain/groq": "^0.2.3",
+    "@langchain/langgraph": "^0.4.9",
+    "@langchain/tavily": "^0.1.5",
+    "zod": "^3.25.76"
+  }
+}
