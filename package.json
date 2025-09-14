@@ -2,7 +2,7 @@
   "name": "llm-langgraph-re-act-agent",
   "version": "1.0.0",
   "description": "Learning ReAct Agentic Development (reason+act) using LangGraph framework.",
-  "main": "agent.js",
+  "main": "crudAgentDriver.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
