@@ -18,7 +18,9 @@ At their core, (Re)ason + (Act) agents are an architectural pattern for building
 
 ### Building for Production: 
 #### The Role of Frameworks: LangGraph
-
+<p align="center">
+<img alt="image-2" src="https://github.com/user-attachments/assets/c2a88e37-0537-4318-b131-81a9a56fdaf5" />
+</p>
 While a simple ReAct loop can be built with a prompt, production-grade agents require more control. This is where frameworks like **LangGraph** come in.
 
 - Beyond the Loop: LangGraph defines a directed graph, each node represents a specific state or action in agent's workflow. This moves beyond a simple, linear loop. A node can be an LLM call, a tool execution, or a human-in-the-loop checkpoint. Edge can be simple or conditional.
@@ -36,6 +38,4 @@ What it means to your existing codebase: which likely contains many CRUD operati
 I've created a CRUD Agent leveraging both Prebuilt and Custom Graphs builder of LangGraph to perform a event scheduling with date, subject and description, along with internet searching capabilities. This is for my understanding of how we can wrap the existing CRUD methods and give them as tool for LLM to take over, of course with guardrails safety!
 
 <img width="1642" height="487" alt="image-2" src="https://github.com/user-attachments/assets/767ccf74-30e5-40dd-9c32-08566973331d" />
-<p align="center">
-<img alt="image-2" src="https://github.com/user-attachments/assets/c2a88e37-0537-4318-b131-81a9a56fdaf5" />
-</p>
+
